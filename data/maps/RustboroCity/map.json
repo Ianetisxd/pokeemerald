@@ -14,19 +14,14 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_ROUTE115",
-      "offset": 0,
-      "direction": "up"
-    },
-    {
-      "map": "MAP_ROUTE104",
-      "offset": 0,
+      "map": "MAP_ROUTE101",
+      "offset": 3,
       "direction": "down"
     },
     {
-      "map": "MAP_ROUTE116",
-      "offset": 0,
-      "direction": "right"
+      "map": "MAP_ROUTE102",
+      "offset": -9,
+      "direction": "left"
     }
   ],
   "object_events": [
@@ -241,8 +236,8 @@
   ],
   "warp_events": [
     {
-      "x": 27,
-      "y": 19,
+      "x": 19,
+      "y": 22,
       "elevation": 0,
       "dest_map": "MAP_RUSTBORO_CITY_GYM",
       "dest_warp_id": "0"
