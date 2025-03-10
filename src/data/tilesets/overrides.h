@@ -7,13 +7,7 @@ static const u16 sTilesetPalOverride_Petalburg06_08[] = INCBIN_U16("data/tileset
 const struct PaletteOverride gTilesetPalOverrides_General[] =
 {
     {
-        .slot = 1,
-        .startHour = HOUR_NIGHT,
-        .endHour = HOUR_MORNING,
-        .palette = sTilesetPalOverride_General01_05,
-    },
-    {
-        .slot = 5,
+        .slot = 3,
         .startHour = HOUR_NIGHT,
         .endHour = HOUR_MORNING,
         .palette = sTilesetPalOverride_General01_05,
@@ -25,12 +19,6 @@ const struct PaletteOverride gTilesetPalOverrides_Petalburg[] =
 {
     {
         .slot = 9,
-        .startHour = HOUR_NIGHT,
-        .endHour = HOUR_MORNING,
-        .palette = sTilesetPalOverride_Petalburg06_08,
-    },
-    {
-        .slot = 8,
         .startHour = HOUR_NIGHT,
         .endHour = HOUR_MORNING,
         .palette = sTilesetPalOverride_Petalburg06_08,
